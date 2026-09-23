@@ -79,6 +79,7 @@ ol,ul{list-style:none;}
 }
 .header__logo{font-family:"Noto Serif JP",serif;font-size:19px;letter-spacing:.14em;color:#fff;
               transition:color .4s var(--ease);}
+.header__logo-break{display:none;}
 .header__nav{display:flex;gap:30px;margin-left:auto;}
 .header__nav a{font-size:13px;color:#fff;opacity:.92;position:relative;padding-bottom:4px;
                transition:color .4s var(--ease);}
@@ -435,6 +436,7 @@ ol,ul{list-style:none;}
   body{font-size:14px;}
   .header__inner{height:68px;gap:14px;}
   .header__logo{font-size:16px;}
+  .header__logo-break{display:block;}
   .hero{padding:120px 0 90px;min-height:auto;}
   .hero__inner{flex-direction:column;align-items:stretch;gap:34px;}
   .hero__photo{width:100%;}
